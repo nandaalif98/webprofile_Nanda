@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="profile">
+        <div class="navbar">
+            <nav>
+                <a href="index.html" class="logo">Nanda Alif Bakri</a>
+                <ul>
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="home">
+            <p>Hallo</p>
+            <p>My Name is Nanda Alif Bakri</p>
+            <p>Mentee at Infinite Learning Indonesia</p>
+        </div>
+        <img class="poto" src="assets/poto.jpg" alt="gambar">
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <div class="about-desc">
+                <p>About Me</p>
+                <p>Let me introduce myself!</p>
+            </div>
+
+            <div class="row">
+                <div class="column" style="background-color: aquamarine;">
+                    <p>I am Nanda Alif Bakri, a 5th semester student of the Informatics Engineering study program at Maritime University Raja Ali Haji class of 2021.  I have an interest in a career in Web Development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="skill">
+            <div class="skill-desc">
+                <p>Skill</p>
+                <p>The following are the skills that I have mastered</p>
+            </div>
+
+            <div class="box-container">
+                <div class="box-1">
+                    <span>1</span>
+                    <p>HTML</p>
+                    <a href="#"><i class="fa-brands fa-html5"></i></a>
+                </div>
+
+                <div class="box-2">
+                    <span>2</span>
+                    <p>CSS</p>
+                    <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <div class="contact-desc">
+                <p>Contact</p>
+                <p>If you are interested in me, please fill in your details below.</p>
+            </div>
+
+            <form action="form.html">
+                <label for="fname">Full Name</label>
+                <input type="text" name="fullname" id="fname" placeholder="Full Name">
+                <label for="email">Your Email</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Let's connect!</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i> </a>
+        </div>
+    </footer>
+
+</body>
+</html>
